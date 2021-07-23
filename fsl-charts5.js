@@ -114,13 +114,13 @@ $(document).ready(function () {
   var npsRespected = new Chart(ctxRespected, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label: "I feel respected and valued by my coworkers",
-          data: [4.52, 4.7],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [4.52, 4.7, 4.64],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
           borderWidth: 1,
         },
       ],
@@ -151,13 +151,13 @@ $(document).ready(function () {
   var npsManager = new Chart(ctxManager, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label: "My manager is a great role model for employees",
-          data: [4.43, 4.6],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [4.43, 4.6, 4,5],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
           borderWidth: 1,
         },
       ],
@@ -188,14 +188,14 @@ $(document).ready(function () {
   var npsProcess = new Chart(ctxProcess, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label:
             "FullStackss systems and processes help me get my work done effectively",
-          data: [3.84, 4.2],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [3.84, 4.2, 4.34],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
           borderWidth: 1,
         },
       ],
@@ -226,13 +226,13 @@ $(document).ready(function () {
   var npsSuccess = new Chart(ctxSuccess, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label: "I know what I need to do to be successful in my role",
-          data: [4.43, 4.5],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [4.43, 4.5, 4.54],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
           borderWidth: 1,
         },
       ],
@@ -263,14 +263,14 @@ $(document).ready(function () {
   var npsPriorities = new Chart(ctxPriorities, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label:
             "Day-to-day decisions here demonstrate that quality and improvement are top prioritites",
-          data: [4.39, 4.6],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [4.39, 4.6, 4.64],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
           borderWidth: 1,
         },
       ],
@@ -301,14 +301,14 @@ $(document).ready(function () {
   var npsOpportunities = new Chart(ctxOpportunities, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label:
             "I believe there are good career oportunities for me at FullStack Labs",
-          data: [3.6, 4.1],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [3.6, 4.1, 4.21],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
           borderWidth: 1,
         },
       ],
@@ -341,14 +341,14 @@ $(document).ready(function () {
   var npsRec = new Chart(ctxRec, {
     type: "bar",
     data: {
-      labels: ["2021 - Q1"],
+      labels: ["2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label:
             "How likely are you to recommend FullStack Labs as a place to work to your family, friends, or former coworkers?",
-          data: [8.7],
-          backgroundColor: ["rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(24, 204, 85,100)"],
+          data: [8.7, 9.1],
+          backgroundColor: ["rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          borderColor: ["rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
           borderWidth: 1,
         },
       ],
@@ -379,14 +379,14 @@ $(document).ready(function () {
   var npsStillWorking = new Chart(ctxStillWorking, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label:
             "I see myself still working at FullStack Labs in one year time",
-          data: [3.63, 4.3],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [3.63, 4.3, 4.47],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
           borderWidth: 1,
         },
       ],
