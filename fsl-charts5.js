@@ -77,13 +77,13 @@ $(document).ready(function () {
   var npsProud = new Chart(ctxProud, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label: "I am proud to work at FullStack Labs",
-          data: [4.43, 4.6],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [4.43, 4.6, 4.71],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
           borderWidth: 1,
         },
       ],
