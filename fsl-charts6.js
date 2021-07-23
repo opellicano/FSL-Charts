@@ -3,13 +3,13 @@ $(document).ready(function () {
   var averageRating = new Chart(ctx, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label: "Average",
-          data: [4.2, 4.6],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [4.2, 4.3, 4.6],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
@@ -40,13 +40,13 @@ $(document).ready(function () {
   var npsResponses = new Chart(ctxResponses, {
     type: "bar",
     data: {
-      labels: ["2020 - Q2", "2021 - Q1"],
+      labels: ["2020 - Q2", "2021 - Q1", "2021 - Q2"],
       datasets: [
         {
           label: "Responses",
-          data: [75, 93],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)"],
+          data: [75, 93, 123],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
@@ -119,8 +119,8 @@ $(document).ready(function () {
         {
           label: "I feel respected and valued by my coworkers",
           data: [4.52, 4.7, 4.64],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
@@ -156,8 +156,8 @@ $(document).ready(function () {
         {
           label: "My manager is a great role model for employees",
           data: [4.43, 4.6, 4,5],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
@@ -194,8 +194,8 @@ $(document).ready(function () {
           label:
             "FullStackss systems and processes help me get my work done effectively",
           data: [3.84, 4.2, 4.34],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
@@ -231,8 +231,8 @@ $(document).ready(function () {
         {
           label: "I know what I need to do to be successful in my role",
           data: [4.43, 4.5, 4.54],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
@@ -269,8 +269,8 @@ $(document).ready(function () {
           label:
             "Day-to-day decisions here demonstrate that quality and improvement are top prioritites",
           data: [4.39, 4.6, 4.64],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
@@ -307,8 +307,8 @@ $(document).ready(function () {
           label:
             "I believe there are good career oportunities for me at FullStack Labs",
           data: [3.6, 4.1, 4.21],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
@@ -385,8 +385,8 @@ $(document).ready(function () {
           label:
             "I see myself still working at FullStack Labs in one year time",
           data: [3.63, 4.3, 4.47],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
