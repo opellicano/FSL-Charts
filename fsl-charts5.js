@@ -82,8 +82,8 @@ $(document).ready(function () {
         {
           label: "I am proud to work at FullStack Labs",
           data: [4.43, 4.6, 4.71],
-          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
-          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)"],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)"],
           borderWidth: 1,
         },
       ],
