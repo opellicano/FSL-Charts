@@ -60,7 +60,7 @@ $(document).ready(function () {
           {
             ticks: {
               beginAtZero: true,
-              max: 150,
+              max: 140,
             },
           },
         ],
