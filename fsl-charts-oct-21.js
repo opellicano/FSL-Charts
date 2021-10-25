@@ -60,7 +60,7 @@ $(document).ready(function () {
           {
             ticks: {
               beginAtZero: true,
-              max: 140,
+              max: 160,
             },
           },
         ],
@@ -155,7 +155,7 @@ $(document).ready(function () {
       datasets: [
         {
           label: "My manager is a great role model for employees",
-          data: [4.43, 4.6, 4,5, 4.51],
+          data: [4.43, 4.6, 4.5, 4.51],
           backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)", "rgba(242, 153, 74, 100)"],
           borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(55, 68, 95, 100)", "rgba(242, 153, 74, 100)"],
           borderWidth: 1,
