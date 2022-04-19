@@ -347,8 +347,8 @@ $(document).ready(function () {
           label:
             "How likely are you to recommend FullStack Labs as a place to work to your family, friends, or former coworkers?",
           data: [59.8, 70.2, 66.2],
-          backgroundColor: ["rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)", "rgba(242, 153, 74, 100)"],
-          borderColor: ["rgba(24, 204, 85,100)", "rgba(44, 106, 250, 100)", "rgba(242, 153, 74, 100)"],
+          backgroundColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(242, 153, 74, 100)"],
+          borderColor: ["rgba(44, 106, 250, 100)", "rgba(24, 204, 85,100)", "rgba(242, 153, 74, 100)"],
           borderWidth: 1,
         },
       ],
