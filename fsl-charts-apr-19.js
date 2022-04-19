@@ -418,7 +418,7 @@ $(document).ready(function () {
   var npsQuantity = new Chart(ctxQuantity, {
     type: "bar",
     data: {
-      labels: ["2021 - Q2", "2021 - Q3", "2021 - Q4"]],
+      labels: ["2021 - Q2", "2021 - Q3", "2021 - Q4"],
       datasets: [
         {
           label:
